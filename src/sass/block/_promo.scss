@@ -51,6 +51,10 @@
 		a {
 			text-decoration: underline;
 			color: #FFFFFF;
+			transition: all 0.5s;
+			&:hover {
+				color: #f2726f;
+			}
 		}
 	}
 }

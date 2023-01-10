@@ -3,8 +3,9 @@
 	font-family: 'MuseoModerno', sans-serif;
 	}
 .container {
-	max-width: 950px;
+	max-width: 980px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
 @import "block/promo";
 @import "block/header";
@@ -16,3 +17,4 @@
 @import "block/carousel";
 @import "block/catalog";
 @import "block/_comment";
+@import "block/footer";
