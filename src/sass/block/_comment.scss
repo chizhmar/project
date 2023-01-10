@@ -1,0 +1,34 @@
+.comment {
+	padding-bottom: 78px;
+	&__item {
+		display: flex;
+		column-gap: 60px;
+		margin-top: 60px;
+	}
+	&__icon {
+		width: 169px;
+		height: 169px;
+	}
+	&__text {
+		padding-right: 76px;;
+	}
+	&__subtitle {
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 1;
+		color: #0D0D0D;
+	}
+	&__count {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.57;
+		color: #646464;
+	}
+	&__dscr {
+		margin-top: 10px;
+		font-weight: 300;
+		font-size: 16px;
+		line-height: 1.5;
+		color: #0D0D0D;
+	}
+}
