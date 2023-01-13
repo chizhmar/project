@@ -33,7 +33,7 @@
 		}
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
 	.header {
 		&__logo {
 			max-width: 200px;
@@ -60,6 +60,9 @@
 	}
 	.title {
 		font-size: 28px;
+		&_left {
+			font-size: 27px;
+		}
 	}
 	.benefits {
 		&__subtitle {
@@ -68,4 +71,102 @@
 		&__descr {
 			font-size: 13px;
 		}
+	}
+	.catalog {
+		padding-bottom: 70px;
+		&__tab {
+			width: 200px;
+			height: 43px;
+			font-size: 15px;
+		}
+		&__content_active {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.comment {
+		&__item {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		&__body {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			margin-top: 20px;
+			padding: 0;
+		}
+		&__dscr {
+			text-align: center;
+			padding: 0 25px 0 25px;
+		}
+	}
+	.footer {
+		height: 100%;
+		&__map {
+			iframe {
+				height: 430px;
+			}
+		}
+	}
+}
+@media (max-width: 551.98px) {
+	.header {
+		&__official {
+			display: none;
+		}
+	}
+	.promo {
+		&__header {
+			font-size: 30px;
+		}
+		&__subheader {
+			font-size: 19px;
+			margin: 3px 0 60px 0;
+		}
+	}
+	.title {
+		font-size: 25px;
+		&_left {
+			font-size: 21px;
+		}
+	}
+	.benefits {
+		&__wrapper {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			row-gap: 30px;
+		}
+		&__subtitle {
+			margin-top: 25px;
+		}
+	}
+	.consultation {
+		&__desc {
+			font-size: 16px;
+			line-height: 1.5;
+		}
+	}
+	.catalog {
+		&__tabs {
+			margin-top: 25px;
+		}
+		&__tab {
+			width: 136px;
+			height: 32px;
+			font-size: 13px;
+			line-height: 2.2;
+			&_active {
+				line-height: 2.3;
+				font-size: 13px;
+			}
+		}
+	}
 }
