@@ -1,0 +1,35 @@
+@media (max-width: 1050px) {
+.footer{
+	&__info {
+		width: 340px;
+		height: 250px;
+		padding: 40px 68 40px 68px;
+	}
+	&__addr {
+		margin-bottom: 30px;
+	}
+}
+}
+@media (max-width: 991.98px) {
+	.footer{
+		&__info {
+			width: 300px;
+			height: 204px;
+			padding: 31px 45px 31px 45px;
+		}
+		&__addr {
+			font-size: 18px;
+		}
+		&__phone {
+			font-size: 18px;
+			margin-bottom: 30px;
+		}
+		&__social-item {
+			width: 40px;
+			height: 40px;
+			img {
+				height: 21px;
+			}
+		}
+}
+}
