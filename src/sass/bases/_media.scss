@@ -13,9 +13,9 @@
 @media (max-width: 991.98px) {
 	.footer{
 		&__info {
-			width: 300px;
-			height: 204px;
-			padding: 31px 45px 31px 45px;
+			width: 250px;
+			height: 179px;
+			padding: 22px 25px 19px 25px;
 		}
 		&__addr {
 			font-size: 18px;
@@ -31,5 +31,41 @@
 				height: 21px;
 			}
 		}
+	}
 }
+@media (max-width: 767px) {
+	.header {
+		&__logo {
+			max-width: 200px;
+		}
+		&__official {
+			font-size: 11px;
+			span {
+				font-size: 16px;
+			}
+		}
+		&__contacts {
+			a {
+				font-size: 16px;
+			}
+		}
+	}
+	.promo {
+		&__header {
+			font-size: 37px;
+		}
+		&__subheader {
+			font-size: 20px;
+		}
+	}
+	.title {
+		font-size: 28px;
+	}
+	.benefits {
+		&__subtitle {
+			font-size: 17px;
+		}
+		&__descr {
+			font-size: 13px;
+		}
 }
