@@ -80,4 +80,6 @@ $(document).ready(function(){
 		valideForms('#consultation-form');
 		valideForms('#consultation form');
 		valideForms('#order form');
-	});
+
+		new WOW().init();
+});
