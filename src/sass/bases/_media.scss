@@ -153,6 +153,13 @@
 		margin: 28px 16px 0 16px;
 	}
 }
+@media (max-width: 390px) {
+	.promo {
+		&__icons {
+			width: 360px;
+		}
+	}
+}
 @media (max-width: 375px) {
 	.promo {
 		&__icons {
